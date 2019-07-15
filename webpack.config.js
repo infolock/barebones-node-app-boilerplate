@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
 
-const DEV_SERVER_PORT = 3000;
 const rootFolder = path.join(__dirname, './');
 const srcPath = path.resolve(rootFolder, 'src');
 
