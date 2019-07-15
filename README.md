@@ -2,13 +2,11 @@
 
 This is just a simple barebones/boilerplate NodeJS Server to quickly get the things up and going.  The desire is to have _just enough_ to get the server up and going for web development.  Nothing more... nothing less.
 
-## Features
-- Same GET/POST Handler
-- Webpack
-	- Hot Module Reloading
-- Babel
-	- Polyfills
-- isomorphic fetch
+## Primary Feature Dependencies
+- [Webpack](https://webpack.js.org/)
+- [Babel Polyfills](https://babeljs.io/)
+- [isomorphic-fetch polyfill](https://github.com/matthew-andrews/isomorphic-fetch)
+- [es6-promise polyfill](https://github.com/stefanpenner/es6-promise)
 
 > See the `package.json` for more information on what is included.
 
