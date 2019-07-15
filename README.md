@@ -28,3 +28,4 @@ This is just a simple barebones/boilerplate NodeJS Server to quickly get the thi
 - `/config` - holds the `webpack` dev server config
 - `/data` - just a mock data store for use with the `GET`/`POST` handlers
 - `/request-handlers` - sample `get` and `post` handlers for returning some mock data
+- `/webpack.config.js` - holds all the `webpack` things.   added some `alias` definitions to make `import` file paths suck a little less.
