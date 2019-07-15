@@ -1,8 +1,8 @@
-const devServerConfig = require('./config/devserver.config');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 const path = require('path');
+const devServerConfig = require('./config/devserver.config');
 
 const rootFolder = path.join(__dirname, './');
 const srcPath = path.resolve(rootFolder, 'src');
