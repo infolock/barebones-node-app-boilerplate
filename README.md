@@ -29,3 +29,6 @@ This is just a simple barebones/boilerplate NodeJS Server to quickly get the thi
 - `/data` - just a mock data store for use with the `GET`/`POST` handlers
 - `/request-handlers` - sample `get` and `post` handlers for returning some mock data
 - `/webpack.config.js` - holds all the `webpack` things.   added some `alias` definitions to make `import` file paths suck a little less.
+
+# Disclaimer
+Use this for non-production, non-secure purposes.   Primary intended purpose is for educational purposes **ONLY** - **NOT** intended for data-sensitive production consumption.  Use it at your own risk - I do not take any ownership of your misusage.
